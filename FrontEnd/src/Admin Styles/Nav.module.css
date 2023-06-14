@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(177, 153, 153);
+    padding: 40px;
+    position: fixed;
+    z-index: 2;
+}
+.container1>img{
+    width: 30%;
+}
+.container2{
+    font-size: 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width:426px){
+    .container1>img{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:320px){
+    .container1>img{
+        width: 30%;
+    }
+    .container2{
+        font-size: 18px;
+        cursor: pointer;
+    }
+}

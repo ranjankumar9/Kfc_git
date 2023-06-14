@@ -1,0 +1,61 @@
+.headers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: rgb(38, 36, 36);
+
+}
+.headers>p{
+    font-weight: 700;
+    color: rgb(230, 228, 228);
+}
+.headers>button{
+    background-color:#e4002b;
+    border: none;
+    width: 160px;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.sign{
+    display: grid;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 70px 0px;
+}
+.sign img{
+    width: 100px;
+    margin: auto;
+}
+.sign h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.btn1{
+    width: 150px;
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.btn2{
+    width: 150px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}

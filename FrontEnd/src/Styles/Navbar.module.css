@@ -1,0 +1,187 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: rgb(252, 253, 254);
+  top: 0;
+  z-index: 3;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  cursor: pointer;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  cursor: pointer;
+}
+.nav2 button{
+  background-color: red;
+  border-radius: 50px;
+  color: white;
+  padding: 7px;
+}
+.vertical {
+  border: 1px solid rgb(213, 210, 210);
+  height: 25px;
+}
+.nav2 div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav2 > img {
+  width: 18%;
+}
+.burger {
+  display: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+.modal {
+  justify-content: space-around;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  margin-top: 100%;
+  position: absolute;
+  font-weight: 700;
+  padding: 30px;
+}
+.modal p {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.close{
+  text-align: center;
+  font-size: 40px;
+  background-color: red;
+  width: 40px;
+
+}
+.drop {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  background-color: rgb(252, 248, 248);
+  height: 200px;
+}
+.modal > div > img {
+  width: 18%;
+}
+
+.model5{
+  display: none;
+  position:absolute;
+  margin-top: 10px;
+  left: 65em;
+  padding: 20px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  color: red;
+  border-radius: 15px;
+  background-color: bisque;
+}
+.model5>li{
+  list-style-type: none;
+}
+.accordin:hover .model5{
+  display: flex;
+  gap: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar p {
+    display: none;
+  }
+  .nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav2 div {
+    display: none;
+  }
+  .nav2 > img {
+    width: 40%;
+  }
+  .burger {
+    display: block;
+    font-size: 25px;
+  }
+  .modal{
+    padding-top: 140px;
+  }
+
+  .modal p {
+    display: block;
+  }
+  .close {
+    font-size: 40px;
+    background-color: red;
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar p {
+    display: none;
+  }
+  .nav2 div {
+    display: none;
+  }
+  .nav2 img {
+    width: 80%;
+  }
+  .burger {
+    display: block;
+    font-size: 25px;
+  }
+  .modal p {
+    display: block;
+  }
+  .close {
+    font-size: 40px;
+    background-color: red;
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar p {
+    display: none;
+  }
+  .nav2 div {
+    display: none;
+  }
+  .nav2 > img {
+    width: 40%;
+  }
+  .modal{
+    
+    height: 200px;
+  }
+  .modal p {
+    display: block;
+  }
+
+}

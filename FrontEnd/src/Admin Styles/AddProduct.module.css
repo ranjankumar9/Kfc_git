@@ -1,0 +1,40 @@
+.add{
+    display: grid;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.add>h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(16, 202, 50);
+}
+.add>input{
+    width: 100%;
+    margin: auto;
+    border: 2px solid rgb(247, 152, 50);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.add select{
+    width: 100%;
+    margin: auto;
+    border: 2px solid rgb(247, 152, 50);
+    margin-top: 30px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.add>button{
+    margin-top: 20px;
+    background-color: rgb(0, 174, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+.add>button:hover{
+    background-color: white;
+    border:  2px solid grey;
+}

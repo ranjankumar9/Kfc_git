@@ -1,0 +1,31 @@
+
+  
+  .arrow {
+    cursor: pointer;
+    position: fixed;
+    top: 580px;
+    right: 0;
+    font-size: 20px;
+    margin: 0 auto;
+   margin-right: 20px;
+   background-color: red;
+   color: white;
+   border-radius: 100px;
+   padding: 10px;
+  }
+  .arrow:hover{
+    background-color: white;
+    border: 2px solid red;
+    color: green;
+  }
+  /* .arrow-bottom {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid white;
+    position: relative;
+    top: -18px;
+    margin: 0 auto;
+  } */
+  

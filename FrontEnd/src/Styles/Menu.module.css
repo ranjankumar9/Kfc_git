@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 80px;
+  gap: 20px;
+  padding: 15px 0px;
+  text-align: center;
+  background-color: rgb(38, 36, 36);
+}
+.headers > p {
+  font-weight: 700;
+  color: rgb(230, 228, 228);
+}
+.headers > button {
+  background-color: #e4002b;
+  border: none;
+  width: 160px;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.main {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  font-size: 14px;
+  /* border: 1px solid blue; */
+}
+.main2 {
+  background-color: #f8f7f5;
+  padding-left: 2vw;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+  /* border: 1px solid red; */
+}
+.menu {
+  height: 100vh;
+  width: 22vw;
+  position: sticky;
+  margin-left: 0.8%;
+  top: 100px;
+  /* border: 1px solid green; */
+}
+.firseimg {
+  width: 60px;
+}
+.h1 {
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 25px;
+}
+.details1{
+  display: none;
+}
+
+.details p {
+  cursor: pointer;
+  margin-top: 15px;
+  color: rgb(90, 86, 86);
+}
+.details p:hover {
+  color: black;
+}
+.keydata {
+  display: grid;
+  width: 100%;
+  box-shadow: rgba(216, 213, 213, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(249, 246, 245, 0.963);
+  margin-top: 50px;
+  /* border: 1px solid black; */
+}
+.data1 > p {
+  font-size: 25px;
+  text-align: left;
+  font-weight: 800;
+  /* margin-top: 10px; */
+}
+.data2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+.key1 > p {
+  font-size: 25px;
+  text-align: left;
+  font-weight: 800;
+  margin-top: 60px;
+}
+.key2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+.searchbox {
+  display: grid;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+.searchbox input {
+  border: 1px solid rgb(199, 193, 193);
+  border-radius: 50px;
+  width: 200px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.searchbox input:hover {
+  border: 2px solid rgb(229, 169, 73);
+}
+.line {
+  border-bottom: 2px solid black;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    display: grid;
+
+    width: 100%;
+  }
+  .menu{
+    height: 5vh;
+    width: 100%;
+  }
+  .details {
+    display: none;
+  }
+  .details1{
+    display: flex;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    overflow-x: scroll;
+  }
+  .details1 button{
+    background-color: rgb(153, 111, 111);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .kfcmenu {
+    display: none;
+  }
+  .main2{
+    width: 100%;
+    /* border: 3px solid rgb(16, 153, 16); */
+    top: 0;
+  }
+  .data2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .key2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main {
+    display: block;
+    width: 100%;
+    /* border: 1px solid blue; */
+  }
+  .menu{
+    height: 10vh;
+  }
+  .details {
+    display: none;
+  }
+  .details1{
+    display: flex;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    overflow-x: scroll;
+  }
+  .details1 button{
+    background-color: rgb(153, 111, 111);
+    color: white;
+    border-radius: 10px;
+  }
+  .kfcmenu {
+    display: none;
+  }
+  .main2{
+    width: 100%;
+    top: 0;
+  }
+  .data2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .key2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .main {
+    display: block;
+    width: 100%;
+    /* border: 1px solid blue; */
+  }
+  .menu{
+    height: 10vh;
+  }
+  .details {
+    display: none;
+  }
+  .details1{
+    display: flex;
+    gap: 5px;
+    width: 300px;
+    margin-top: 10px;
+    overflow-x: scroll;
+  }
+  .details1 button{
+    background-color: rgb(153, 111, 111);
+    color: white;
+    border-radius: 10px;
+  }
+  .kfcmenu {
+    display: none;
+  }
+  .main2{
+    width: 100%;
+    top: 0;
+  }
+  .data2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .key2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.admin {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.con {
+  display: grid;
+  width: 20%;
+  margin-top: 400px;
+}
+.admin2 {
+    top: 0px;
+  margin: auto;
+}

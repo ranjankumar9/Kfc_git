@@ -1,0 +1,174 @@
+/* ------------------------------Scroll Webkit ------------------------------- */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(226, 143, 143);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(209, 57, 57);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey;
+  }
+  /* ------------------------------Scroll Webkit ------------------------------- */
+
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: rgb(38, 36, 36);
+
+}
+.headers>p{
+    font-weight: 700;
+    color: rgb(230, 228, 228);
+}
+.headers>button{
+    background-color:#e4002b;
+    border: none;
+    width: 160px;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.slider>img{
+    width: 100%;
+}
+.lines {
+    width: 40px;
+    height: 30px;
+    background-image: repeating-linear-gradient(90deg, rgb(228, 0, 43), rgb(228, 0, 43) 8px, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 16px);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-left: 13%;
+    /* text-transform: capitalize; */
+    
+}
+.user{
+    text-transform: uppercase;
+}  
+.welcome{
+    text-align: left;
+    background-color: rgb(243, 242, 242);
+    /* padding-left:  10%; */
+    font-size: 20px;
+}
+.welcome h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 12%;
+}
+.categories{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+.categories>h1{
+    font-size: 30px;
+    width: 100%;
+    font-weight: 900;
+}
+.horizontal{
+    width: 100%;
+    border:1px solid rgb(195, 192, 192);
+    height: 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.card>div{
+    /* padding: 1px; */
+    border-radius: 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.ind{
+    padding: 20px;
+    
+}
+.ind>h1{
+    font-size: 13px;
+    font-weight: 900;
+}
+.card>div>h1{
+    font-size: 15px;
+}
+.card>div>img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media only screen and (max-width:768px){
+    .headers{
+        display: block;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .headers>button{
+        margin: auto;
+        margin-top: 12px;
+    }
+    .slider>img{
+        height: 400px;
+    }
+    .welcome{
+        text-align: center;
+        font-size: 12px;
+    }
+    .categories>h1{
+        font-size: 20px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .child{
+        display: block;
+    }
+}
+@media only screen and (max-width:425px){
+    .welcome{
+        font-size: 10px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
