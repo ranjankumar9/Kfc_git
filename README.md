@@ -1,26 +1,20 @@
 
 
-Backend Deployed Link :- https://unusual-cyan-cygnet.cyclic.app
-Frontend Deployed Link :- https://shopoffer.vercel.app/
+Backend Deployed Link :- https://encouraging-petticoat-calf.cyclic.app
+Frontend Deployed Link :- https://6487aae7d791b62e4d783f90--famous-madeleine-76e991.netlify.app/deals
 
 
 # ShopOffer.com
-Clone of Snapdeal
-Snapdeal is an Indian e-commerce company, based in New Delhi, India. It was founded in February 2010 by Kunal Bahl and Rohit Bansal. Snapdeal was one of the largest online marketplaces in India.
+Clone of KFC
 
-
-# Team Members
-1.Ranjan Kumar
-2.Gaurav Suthar
-3.sachin Mishra
-4.Sachin Yadav
-5.Pradeep Singh
 
 Tech stack used in the Project:
 React JS
+material UI
 Chakra UI
 JavaScript
-CSS
+CSS module
+sass
 Mongodb atals
 express js
 Node js
@@ -30,27 +24,46 @@ Node js
 # Some Snippets of the Project
 
 # Home Page
-![home](https://user-images.githubusercontent.com/107936455/221484768-f6980371-1a42-4a9a-8f4c-55cdcb09d9eb.png)
+![kfc1](https://github.com/ranjankumar9/Kfc_git/assets/107936455/eeaeda93-a7bb-4fe3-bdbe-dc8b18df36a2)
 
 # Product Page
-![productpage](https://user-images.githubusercontent.com/107936455/221486896-7d726e90-6f7d-4b87-bfdf-c14ab60ddb7a.png)
+![product page](https://github.com/ranjankumar9/Kfc_git/assets/107936455/07162a20-f158-4d72-a9c0-78f8c85e54ef)
 
+# Deals Page
+![deals](https://github.com/ranjankumar9/Kfc_git/assets/107936455/a88bf318-b28b-4792-bc49-2be935929759)
 
 # Cart Page
-![Cartpage](https://user-images.githubusercontent.com/107936455/221485073-a43f8109-65c2-4b2a-891c-8f376997c1a6.png)
-
-# All Orders Page
-![Myorders](https://user-images.githubusercontent.com/107936455/221485151-3e2a38ef-9b5e-4940-8584-f32f2e6fe980.png)
+![cartpage](https://github.com/ranjankumar9/Kfc_git/assets/107936455/43163f80-befb-48dd-adde-6cfd4324a81c)
 
 # Register 
-![Register](https://user-images.githubusercontent.com/107936455/221486144-8eb3c13e-1075-4cbb-ac5e-a90aca8dd6d7.png)
-
+![user Register](https://github.com/ranjankumar9/Kfc_git/assets/107936455/8deec1d3-2733-4a57-a96d-a90569dc9e56)
 
 # Login Section
-![Login](https://user-images.githubusercontent.com/107936455/221484904-47a712fc-e7bb-4938-b11a-38d2af23137d.png)
+![userLogin](https://github.com/ranjankumar9/Kfc_git/assets/107936455/7596727d-cd77-40eb-aab3-010f8f3951f3)
 
 # Admin-Register Page
-![Admin](https://user-images.githubusercontent.com/107936455/221484995-fafd3685-da39-449f-9416-8a5eb872957a.png)
+![admin register](https://github.com/ranjankumar9/Kfc_git/assets/107936455/d8d8e36e-0d16-4492-a4fe-02e48d53bd0a)
+
+# Admin Login Page
+![admin login](https://github.com/ranjankumar9/Kfc_git/assets/107936455/0dfd5679-f562-4966-adef-83c1888b9812)
+
+# Admin Product Page
+![admin products](https://github.com/ranjankumar9/Kfc_git/assets/107936455/731baf14-8277-4c7e-b239-879a99df08ed)
+
+# Admin Add-Product Page
+![admin add products](https://github.com/ranjankumar9/Kfc_git/assets/107936455/eefb381a-f1ab-431a-a46c-ef0c2e7b1fe6)
+
+# Admin User-details Page
+![admin userdetails](https://github.com/ranjankumar9/Kfc_git/assets/107936455/9f3cdc04-31cf-44ac-8588-cd4f146bf67f)
+
+# Payment-details Page
+![pay mode](https://github.com/ranjankumar9/Kfc_git/assets/107936455/5802333d-7d5b-40c4-ac23-4a4dd97050e6)
+
+# payment-card Page
+![payment](https://github.com/ranjankumar9/Kfc_git/assets/107936455/4b18010f-ca82-495c-9fa6-503d50374c3a)
+
+
+
 
 
 
