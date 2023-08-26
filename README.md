@@ -19,6 +19,8 @@ Mongodb atals
 express js
 Node js
 
+#About Project :- The main Functionalities of this Project is, in one time two or more members can login with unique name and cart is also behave uniquely.
+
 
 
 # Some Snippets of the Project
