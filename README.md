@@ -1,7 +1,7 @@
 
 
-Backend Deployed Link :- https://encouraging-petticoat-calf.cyclic.app
-Frontend Deployed Link :- https://6487aae7d791b62e4d783f90--famous-madeleine-76e991.netlify.app/
+Backend Deployed Link :- https://kfc-git.onrender.com/
+Frontend Deployed Link :- https://mellow-pithivier-9745ee.netlify.app/
 
 
 # ShopOffer.com
