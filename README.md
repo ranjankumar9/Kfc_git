@@ -1,7 +1,7 @@
 
 
 Backend Deployed Link :- https://kfc-git.onrender.com/
-Frontend Deployed Link :- https://mellow-pithivier-9745ee.netlify.app/
+Frontend Deployed Link :- https://chipper-gecko-22e7c0.netlify.app/
 
 
 # ShopOffer.com
